@@ -17,13 +17,16 @@ body {
 }
 
 article {
-
+  margin: auto;
+  text-align: center;
+  width: 90%;
+  max-width: 1200px;
 }
 
 h1 {
-
+  text-align: center;
 }
 
 img {
-
+  max-width: 100%;
 }
