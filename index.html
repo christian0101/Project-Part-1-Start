@@ -8,6 +8,7 @@
   <meta itemprop="name" content="Udacity Responsive Images course project">
   <meta name="mobile-web-app-capable" content="yes">
   <meta id="theme-color" name="theme-color" content="#307699">
+  <meta charset="utf-8">
 
   <!-- loads the Udacity Feedback extension -->
   <meta name="udacity-grader" content="http://udacity.github.io/responsive-images/project/project-grader.json" unit-tests="http://udacity.github.io/responsive-images/project/project-grader.js">
@@ -17,23 +18,24 @@
   <title>My responsive blog: picture story</title>
 
   <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/css-social-buttons/1.3.0/css/zocial.min.css" />
 
 </head>
 
 <body>
+  <h1>
+  <img width="64px" src="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA1MTIgNTEyIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPHBhdGggc3R5bGU9ImZpbGw6I0E1QTVBNTsiIGQ9Ik01MTIsNDY3LjQ3OEw1MTIsNDY3LjQ3OEM1MTIsNDkyLjA2Niw0OTIuMDY2LDUxMiw0NjcuNDc4LDUxMkg0NC41MjIgIEMxOS45MzMsNTEyLDAsNDkyLjA2NiwwLDQ2Ny40NzhsMCwwYzAtMjQuNTg4LDE5LjkzMy00NC41MjIsNDQuNTIyLTQ0LjUyMmg0MjIuOTU3QzQ5Mi4wNjYsNDIyLjk1Nyw1MTIsNDQyLjg5LDUxMiw0NjcuNDc4eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojNzc3Nzc3OyIgZD0iTTE2OS43MzksNDc4LjYwOWMwLDQuNjEtMy43MzgsOC4zNDgtOC4zNDgsOC4zNDhINzIuMzQ4Yy00LjYxLDAtOC4zNDgtMy43MzgtOC4zNDgtOC4zNDggIHMzLjczOC04LjM0OCw4LjM0OC04LjM0OGg4OS4wNDNDMTY2LjAwMiw0NzAuMjYxLDE2OS43MzksNDczLjk5OCwxNjkuNzM5LDQ3OC42MDl6IE00MzkuNjUyLDQ3MC4yNjFIMjcyLjY5NiAgYy00LjYxLDAtOC4zNDgsMy43MzgtOC4zNDgsOC4zNDhzMy43MzgsOC4zNDgsOC4zNDgsOC4zNDhoMTY2Ljk1N2M0LjYxLDAsOC4zNDgtMy43MzgsOC4zNDgtOC4zNDhTNDQ0LjI2Miw0NzAuMjYxLDQzOS42NTIsNDcwLjI2MSAgeiBNMjM0Ljg1Miw0NzAuMjYxaC0xLjExM2MtNC42MSwwLTguMzQ4LDMuNzM4LTguMzQ4LDguMzQ4czMuNzM4LDguMzQ4LDguMzQ4LDguMzQ4aDEuMTEzYzQuNjEsMCw4LjM0OC0zLjczOCw4LjM0OC04LjM0OCAgUzIzOS40NjIsNDcwLjI2MSwyMzQuODUyLDQ3MC4yNjF6IE0yMDAuMzQ4LDQ3MC4yNjFoLTEuMTEzYy00LjYxLDAtOC4zNDgsMy43MzgtOC4zNDgsOC4zNDhzMy43MzgsOC4zNDgsOC4zNDgsOC4zNDhoMS4xMTMgIGM0LjYxLDAsOC4zNDgtMy43MzgsOC4zNDgtOC4zNDhTMjA0Ljk1OCw0NzAuMjYxLDIwMC4zNDgsNDcwLjI2MXoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0NDQ0FDNDsiIGQ9Ik00NzguNjA5LDE1NS44MjZ2MjQ0Ljg3YzAsMjQuNTg4LTE5LjkzNCw0NC41MjItNDQuNTIyLDQ0LjUyMkg3Ny45MTMgIGMtMjQuNTg4LDAtNDQuNTIyLTE5LjkzNC00NC41MjItNDQuNTIydi0yNDQuODdjMC0yNC41ODgsMTkuOTMzLTQ0LjUyMiw0NC41MjItNDQuNTIyaDM1Ni4xNzQgIEM0NTguNjc1LDExMS4zMDQsNDc4LjYwOSwxMzEuMjM4LDQ3OC42MDksMTU1LjgyNnoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0YyRUZFMjsiIGQ9Ik00MzQuMDg3LDQyMi45NTdINzcuOTEzYy0xMi4yOTUsMC0yMi4yNjEtOS45NjYtMjIuMjYxLTIyLjI2MXYtMjQ0Ljg3ICBjMC0xMi4yOTUsOS45NjYtMjIuMjYxLDIyLjI2MS0yMi4yNjFoMzU2LjE3NGMxMi4yOTUsMCwyMi4yNjEsOS45NjYsMjIuMjYxLDIyLjI2MXYyNDQuODcgIEM0NTYuMzQ4LDQxMi45OSw0NDYuMzgyLDQyMi45NTcsNDM0LjA4Nyw0MjIuOTU3eiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojQkZCQkEzOyIgZD0iTTQwNi4yNjEsMjAzLjEzSDEwNS43MzljLTkuMjIsMC0xNi42OTYtNy40NzUtMTYuNjk2LTE2LjY5NmwwLDBjMC05LjIyLDcuNDc1LTE2LjY5NiwxNi42OTYtMTYuNjk2ICBoMzAwLjUyMmM5LjIyLDAsMTYuNjk2LDcuNDc1LDE2LjY5NiwxNi42OTZsMCwwQzQyMi45NTcsMTk1LjY1NSw0MTUuNDgxLDIwMy4xMyw0MDYuMjYxLDIwMy4xM3ogTTI0NC44NywyNDQuODdMMjQ0Ljg3LDI0NC44NyAgYzAtOS4yMi03LjQ3NS0xNi42OTYtMTYuNjk2LTE2LjY5NkgxMDUuNzM5Yy05LjIyLDAtMTYuNjk2LDcuNDc1LTE2LjY5NiwxNi42OTZsMCwwYzAsOS4yMiw3LjQ3NSwxNi42OTYsMTYuNjk2LDE2LjY5NmgxMjIuNDM1ICBDMjM3LjM5NSwyNjEuNTY1LDI0NC44NywyNTQuMDksMjQ0Ljg3LDI0NC44N3ogTTQyMi45NTcsMjQ0Ljg3TDQyMi45NTcsMjQ0Ljg3YzAtOS4yMi03LjQ3NS0xNi42OTYtMTYuNjk2LTE2LjY5NkgyODMuODI2ICBjLTkuMjIsMC0xNi42OTYsNy40NzUtMTYuNjk2LDE2LjY5NmwwLDBjMCw5LjIyLDcuNDc1LDE2LjY5NiwxNi42OTYsMTYuNjk2aDEyMi40MzVDNDE1LjQ4MiwyNjEuNTY1LDQyMi45NTcsMjU0LjA5LDQyMi45NTcsMjQ0Ljg3ICB6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGRkQ4ODA7IiBkPSJNNDA2LjI2MSwzODRIMTA1LjczOWMtOS4yMiwwLTE2LjY5Ni03LjQ3NS0xNi42OTYtMTYuNjk2di02Ni43ODNjMC05LjIyLDcuNDc1LTE2LjY5NiwxNi42OTYtMTYuNjk2ICBoMzAwLjUyMmM5LjIyLDAsMTYuNjk2LDcuNDc1LDE2LjY5NiwxNi42OTZ2NjYuNzgzQzQyMi45NTcsMzc2LjUyNSw0MTUuNDgyLDM4NCw0MDYuMjYxLDM4NHoiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZDODA1OTsiIGQ9Ik0xMzkuNjg4LDM3NC4yM2wtMi4zMzIsMi4zMzJsMC4wODYsMC4wODZsLTE5LjA5OCwxOS4wOThjLTEuMzcsMS4zNy0zLjIyOSwyLjE0LTUuMTY3LDIuMTRsMCwwICBjLTEuOTM4LDAtMy43OTctMC43Ny01LjE2Ny0yLjE0bC0xOS4wOTgtMTkuMDk4bDAuMDg2LTAuMDg2bC0yLjMzMi0yLjMzMmMtNi42NzctNi42NzctNi42NzctMTcuNTAxLDAtMjQuMTc5bDAsMCAgYzYuNjc3LTYuNjc3LDE3LjUwMS02LjY3NywyNC4xNzksMGwyLjMzMiwyLjMzMmwyLjMzMi0yLjMzMmM2LjY3Ny02LjY3NywxNy41MDEtNi42NzcsMjQuMTc5LDBsMCwwICBDMTQ2LjM2NSwzNTYuNzI4LDE0Ni4zNjUsMzY3LjU1MywxMzkuNjg4LDM3NC4yM3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0Q2QTE1NDsiIGQ9Ik0zNzYuMjA5LDI5Mi4zNmwtMjIuMjYxLDI5LjY4MmMtNC40NTIsNS45MzYtMTMuMzU3LDUuOTM2LTE3LjgwOSwwbC0yMi4yNjEtMjkuNjgyICBjLTEuNDQ1LTEuOTI3LTIuMjI2LTQuMjctMi4yMjYtNi42NzhWMjIuMjYxQzMxMS42NTIsOS45NjYsMzIxLjYxOCwwLDMzMy45MTMsMGgyMi4yNjFjMTIuMjk1LDAsMjIuMjYxLDkuOTY2LDIyLjI2MSwyMi4yNjEgIHYyNjMuNDIxQzM3OC40MzUsMjg4LjA4OSwzNzcuNjUzLDI5MC40MzMsMzc2LjIwOSwyOTIuMzZ6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNCMjY5MzI7IiBkPSJNMzcwLjA4NywzMDAuNTIybC0xNi4xMzksMjEuNTE4Yy00LjQ1Miw1LjkzNi0xMy4zNTcsNS45MzYtMTcuODA5LDBMMzIwLDMwMC41MjJIMzcwLjA4N3oiLz4KPHBhdGggc3R5bGU9ImZpbGw6I0ZGRDg4MDsiIGQ9Ik0zMTEuNjUyLDI1NlYyMi4yNjFDMzExLjY1Miw5Ljk2NiwzMjEuNjE4LDAsMzMzLjkxMywwaDIyLjI2MWMxMi4yOTUsMCwyMi4yNjEsOS45NjYsMjIuMjYxLDIyLjI2MSAgVjI1NkgzMTEuNjUyeiIvPgo8cGF0aCBzdHlsZT0iZmlsbDojRkNDMTU5OyIgZD0iTTM0NS4wNDMsMjU2VjBoMTEuMTNjMTIuMjk1LDAsMjIuMjYxLDkuOTY2LDIyLjI2MSwyMi4yNjFWMjU2SDM0NS4wNDN6Ii8+CjxwYXRoIHN0eWxlPSJmaWxsOiNGQzgwNTk7IiBkPSJNMzc4LjQzNSwyMi4yNjF2MjIuMjYxaC02Ni43ODNWMjIuMjYxQzMxMS42NTIsOS45NjYsMzIxLjYxOCwwLDMzMy45MTMsMGgyMi4yNjEgIEMzNjguNDY5LDAsMzc4LjQzNSw5Ljk2NiwzNzguNDM1LDIyLjI2MXoiLz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==" />
+  </h1>
 
   <h1>My responsive blog</h1>
 
   <article>
 
-    <figure>
-      <img srcset="images/still_life-30pc_small.jpg 600w, images/still_life-50pc_large.jpg 1000w" />
-      <figcaption>Fruits</figcaption>
-    </figure>
+    <img srcset="images/still_life-30pc_small.jpg 600w, images/still_life-50pc_large.jpg 1000w" />
 
     <h2>My story</h2>
 
-    <p>I love cheese, especially manchego swiss. <img src="images_src/fixed/smiley_face.png"> Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
+    <p>I love cheese, especially manchego swiss. ☺ Fromage queso jarlsberg cheesy feet emmental cottage cheese camembert de normandie bocconcini. Cottage cheese everyone loves cauliflower cheese rubber cheese squirty cheese halloumi cow fondue. Bocconcini cheese and biscuits everyone loves fondue red leicester st. agur blue cheese rubber cheese ricotta. Cheesy grin mozzarella.</p>
 
     <figure>
       <img srcset="images/horses-30pc_small.jpg 450w, images/horses-50pc_large.jpg 750w">
@@ -76,13 +78,17 @@
 
   </article>
 
-  <img src="images_src/fixed/flourish.png">
+  <div class="separator"></div>
   <!--
   Flourish credit: http://pixabay.com/en/flourish-line-border-decoration-31609/
   -->
 
   <br>
-  <a href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+  <a class="zocial github" href="//github.com/udacity/responsive-images/tree/master/project/start" title="View source for this page on GitHub" id="viewSource">View source on GitHub</a>
+  <a class="zocial twitter" href="">Twitter</a>
+  <a class="zocial digg" href="">Digg</a>
+  <a class="zocial facebook" href="">Facebook</a>
+  <a class="zocial googleplus" href="">Google+</a>
 
 </body>
 </html>

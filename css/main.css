@@ -13,7 +13,9 @@ I've left some boilerplate below for you.
 */
 
 body {
-
+  height: 100%;
+  display: table;
+  margin: auto;
 }
 
 article {
@@ -24,9 +26,16 @@ article {
 }
 
 h1 {
+  margin: 48px auto;
   text-align: center;
 }
 
 img {
   max-width: 100%;
+}
+
+.separator {
+  padding-bottom: 5px;
+  margin: 10px 0 40px;
+  border-bottom: 1px solid #ddd;
 }
